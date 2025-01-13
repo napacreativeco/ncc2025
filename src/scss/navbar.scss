@@ -1,0 +1,64 @@
+/*
+------------------------------------
+NAVBAR
+------------------------------------
+*/
+#navbar {
+    display: grid;
+    grid-template-columns: var(--twelve-column);
+    align-items: center;
+    grid-gap: var(--side-padding);
+    width: 100%;
+    padding: 20px var(--side-padding) 0 var(--side-padding);
+    transition: all 0.5s ease-in-out;
+
+    .logo {
+        grid-column: col-start 1 / span 3;
+    }
+
+    .navigation {
+        grid-column: col-start 7 / span 4;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;	
+        gap: 20px;
+    }
+
+    .get-in-touch {
+        grid-column: col-start 11 / span 2;
+        display: flex;
+        justify-content: flex-end;
+        white-space: nowrap;
+    }
+
+}
+
+
+/*
+------------------------------------
+MOBILE
+------------------------------------
+*/
+@media screen and (max-width: 968px) {
+
+    #navbar {
+        
+        .navigation {
+            grid-column: col-start 5 / span 4;
+        }
+        
+        .commissions-status {
+            display: none;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    #navbar {
+        display: none;
+    }
+    
+}

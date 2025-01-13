@@ -1,0 +1,50 @@
+@media screen and (max-width: 767px) {
+    #hero {
+        width: 100%;
+    
+        .header {
+            display: flex !important;
+            flex-direction: column;
+            margin: 0 0 20px 0;
+            gap: 10px;
+    
+            .description {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 20px;
+    
+                h2 {
+                    font-weight: 300;
+                    font-size: 11px;
+                    width: 60%;
+                }
+    
+                .icon {
+                    width: 60px;
+                    aspect-ratio: 1/1;
+                    margin: 0;
+                }
+                
+            }
+    
+            .headline {
+                width: 100%;
+    
+                h1 {
+                    font-size: 6.8vw;
+    
+                }
+            }
+    
+        }
+    
+        .image {
+            border-radius: 30px;
+        }
+    
+    }
+}
+

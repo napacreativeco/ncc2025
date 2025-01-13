@@ -1,0 +1,38 @@
+@media screen and (max-width: 767px) {
+
+    #overview {
+        display: flex !important;
+        flex-direction: column;
+
+        .left {
+            display: none;
+        }
+
+        .right {
+            width: 100%;
+
+            .description {
+                h2 {
+                    font-size: 4vw;
+                }
+            }
+            
+            .content {
+                div:nth-child(1) {
+                    grid-column: col-start 1 / span 12 !important;
+                }
+
+                div:nth-child(2) {
+                    grid-column: col-start 1 / span 8 !important;
+                }
+
+                div:nth-child(3) {
+                    grid-column: col-start 9 / span 3 !important;
+                }
+                
+            }
+
+        }
+    }
+
+}

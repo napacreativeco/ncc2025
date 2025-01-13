@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) {
+ 
+    #testimonials {
+        display: flex !important;
+        flex-direction: column;
+
+        .left {
+            .testimonial {        
+                
+                .header {
+                    .headline {
+                        h2 {
+                            font-size: 5vw;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .right {
+            display: none;
+        }
+    }
+    
+}

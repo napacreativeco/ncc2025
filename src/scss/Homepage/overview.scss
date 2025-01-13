@@ -1,0 +1,111 @@
+#overview {
+    display: grid;
+    grid-template-columns: var(--twelve-column);
+    gap: var(--side-padding);
+    padding: 0 var(--side-padding);
+    transform: translateY(60px);
+    transition: all 0.6s ease-out;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+    /*
+    ----------------------
+    LEFT
+    ----------------------
+    */
+    .left {
+        grid-column: col-start 1 / span 3;
+
+        .image {
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            aspect-ratio: 4/6;
+            display: flex;
+            justify-content: center;
+
+            img {
+                display: block;
+                max-height: 100%;
+                object-fit: cover;
+                object-position: center center;
+            }
+        }
+    }
+
+
+    /*
+    ----------------------
+    RIGHT
+    ----------------------
+    */
+    .right {
+        grid-column: col-start 4 / span 10;
+
+        display: grid;
+        grid-template-columns: repeat(8, [col-start] 1fr);
+
+        .description {
+            grid-column: span 7;
+            margin: 0 0 60px 0;
+
+            h2 {
+                font-size: 2.8vw;
+                line-height: var(--line-height--m);
+                letter-spacing: var(--letter-spacing--m);
+            }
+        }
+
+        .span {
+            grid-column: col-start 7 / span 1;
+        }
+
+        .content {
+            grid-column: col-start 1 / span 8;
+            display: grid;
+            grid-template-columns: repeat(8, [col-start] 1fr);
+            grid-gap: var(--side-padding);
+
+            .title {
+                display: inline-block;
+                border: var(--border-black);
+                border-radius: 50px;
+                padding: 8px 14px;
+            }
+    
+            a {
+                display: block;
+                margin: 20px 0 0 0;
+                font-weight: bold;
+                text-transform: lowercase;
+                text-decoration: underline;
+            }
+    
+            div:nth-child(1) {
+                grid-column: col-start 1 / span 2;
+            }
+    
+            div:nth-child(2) {
+                grid-column: col-start 3 / span 5;
+            }
+    
+            div:nth-child(3) {
+                grid-column: col-start 8 / span 1;
+            }
+        }
+
+
+    }
+
+}
+
+
+/*
+----------------------
+IN VIEWPORT
+----------------------
+*/
+#overview.in-viewport {
+    transform: translateY(0px);
+    opacity: 1;
+}

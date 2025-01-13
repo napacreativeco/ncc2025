@@ -1,0 +1,81 @@
+/*
+------------------------------------
+NAVBAR SLIM
+------------------------------------
+*/
+#navbar-slim {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background: var(--white);
+    display: grid;
+    grid-template-columns: var(--twelve-column);
+    grid-gap: var(--side-padding);
+    padding: 12px var(--side-padding) 12px var(--side-padding);
+    border-bottom: 1px solid var(--grey);
+    transform: translateY(-100px);
+    transition: transform 0.4s ease-in-out;
+
+    .logo {
+        grid-column: col-start 1 / span 3;
+    }
+
+    .navigation {
+        grid-column: col-start 4 / span 6;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;	
+        gap: 20px;
+
+        span:nth-child(1) {
+            color: var(--grey);
+        }
+    }
+
+    .get-in-touch {
+        grid-column: col-start 11 / span 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 12px;
+        font-weight: 600;
+
+        svg {
+            width: 14px;
+            height: 14px;
+
+            path {
+                fill: var(--black);
+            }
+        }
+
+        a {
+            text-decoration: underline;
+        }
+
+    }
+
+}
+
+#navbar-slim.show {
+    //display: grid;
+    transform: translateY(0px);
+}
+
+
+
+
+/*
+------------------------------------
+MOBILE
+------------------------------------
+*/
+@media screen and (max-width: 767px) {
+
+    #navbar-slim {
+        display: none;
+    }
+    
+}

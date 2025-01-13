@@ -1,0 +1,36 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    font-weight: 300;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background: inherit;
+    text-align: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: inherit;
+}
+
+summary  {
+    list-style: none;
+}
+  
+/* sigh, Safari again */  
+summary::-webkit-details-marker {
+    display: none;
+}
