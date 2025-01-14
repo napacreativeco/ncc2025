@@ -1,3 +1,11 @@
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
 #experience-items {
     transform: translateY(60px);
     transition: all 0.6s ease-out;
@@ -31,7 +39,7 @@
 
         img {
             width: 200%;
-            display: block;
+            //display: block;
             object-fit: cover;
             object-position: center center;
             transition: width 1s ease-in-out;
@@ -88,6 +96,10 @@
         position: absolute;
         bottom: 40px;
         right: 40px;
+        transform: translateY(80px);
+        transition: opacity 0.3s ease-in-out;
+        transition-delay: 1s;
+        animation: none;
 
         button {
             background: var(--black);
@@ -137,6 +149,10 @@
             width: 100%;
             animation: stretcher 1s forwards;
         }
+    }
+
+    .buttons {
+        animation: fader 1s forwards;
     }
 }
 

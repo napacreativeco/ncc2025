@@ -68,7 +68,8 @@
             <div class="experience" data-id="{item.id}" class:activeSlideItem={activeItemId === item.id}>
 
                 <div class="image">
-                    <img class="side-image" src="{projectsItems[index].image}" alt="" />
+                    <img class="side-image desktop" src="{projectsItems[index].image}" alt="" />
+                    <img class="side-image mobile" src="{projectsItems[index].image_mobile}" alt="" />
                 </div>
 
                 <div class="content">

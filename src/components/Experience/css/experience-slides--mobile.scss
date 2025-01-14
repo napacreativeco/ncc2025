@@ -1,5 +1,13 @@
 @media screen and (max-width:767px) {
 
+    .mobile {
+        display: block;
+    }
+    
+    .desktop {
+        display: none;
+    }
+
     #experience-items {
 
         .slider {
