@@ -1,6 +1,6 @@
 <style lang="scss">
-    @import '../../scss/Homepage/expertise.scss';
-    @import '../../scss/Homepage/expertise--mobile.scss';
+    @import './css/expertise.scss';
+    @import './css/expertise--mobile.scss';
 </style>
 
 <script>

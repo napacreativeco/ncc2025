@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+    
+    #about-header {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 6px;
+        margin: 40px 0 0 0;
+        padding: 0 var(--side-padding);
+
+        .right {
+
+            .title {
+                padding: 60px 0 30px 0;
+
+                span {
+                    font-size: 10px;
+                }
+
+                h2 {
+                    font-size: 5vw;
+                }
+            }
+
+            .blocks {
+                grid-gap: 6px;
+
+                .block {
+                    border-radius: 26px;
+                }
+
+            }
+        }
+
+        .left {
+
+            .image {
+                border-radius: 26px !important;
+                min-height: auto !important;
+            }
+
+        }
+    }
+
+}

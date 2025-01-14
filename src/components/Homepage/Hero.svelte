@@ -1,6 +1,6 @@
 <style lang="scss">
-    @import '../../scss/Homepage/hero.scss';
-    @import '../../scss/Homepage/hero--mobile.scss';
+    @import './css/hero.scss';
+    @import './css/hero--mobile.scss';
 
     img.hidden {
         opacity: 0;

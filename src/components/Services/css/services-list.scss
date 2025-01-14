@@ -49,21 +49,20 @@ LIST DIVS
             }
 
             .arrow {
-                grid-column: col-start 12;
+                grid-column: col-start 12 / span 1;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 align-self: flex-end;
-                border-radius: 50px;
+                border-radius: 50%;
                 aspect-ratio: 1/1;
                 background: var(--black);
                 box-shadow: var(--box-shadow);
 
                 svg {
                     transition: all 0.3s ease-in-out;
-                    transform: rotate(45deg);
-                    width: 24px;
-                    height: 24px;
+                    transform: rotate(45deg) translateX(2px);
+                    width: 40%;
 
                     path {
                         fill: var(--grey);
@@ -78,15 +77,15 @@ LIST DIVS
                 justify-content: center;
                 align-items: center;
                 align-self: flex-end;
-                border-radius: 50px;
+                border-radius: 50%;
                 padding: 0px;
                 background: #c16363;
                 aspect-ratio: 1/1;
                 box-shadow: var(--box-shadow);
 
                 svg {
-                    width: 40px;
-                    height: 40px;
+                    width: 30%;
+                    transform: translateX(1px);
 
                     path {
                         fill: var(--black);
@@ -100,7 +99,7 @@ LIST DIVS
         .title:hover {
             .arrow {
                 svg {
-                    transform: rotate(90deg);
+                    transform: rotate(90deg) translateY(-2px) translateX(1px);
                     path {
                         fill: var(--white);
                     }

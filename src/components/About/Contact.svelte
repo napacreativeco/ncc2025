@@ -1,5 +1,6 @@
 <style lang="scss">
-    @import '../../scss/About/about-contact.scss';
+    @import './css/about-contact.scss';
+    @import './css/about-contact--mobile.scss';
 </style>
 
 <script>

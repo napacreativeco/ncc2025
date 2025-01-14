@@ -1,6 +1,6 @@
 <style lang="scss">
-    @import '../../scss/Homepage/testimonials.scss';
-    @import '../../scss/Homepage/testimonials--mobile.scss';
+    @import './css/testimonials.scss';
+    @import './css/testimonials--mobile.scss';
 </style>
 
 <script>

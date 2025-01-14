@@ -1,0 +1,42 @@
+@media screen and (max-width:767px) {
+
+    #experience-items {
+
+        .slider {
+            padding: 30px var(--side-padding) 0 var(--side-padding);
+        }
+
+    }
+
+    .experience {
+        display: none;
+        flex-direction: column;
+        gap: 6px;
+
+        .image {
+            border-radius: 26px;
+        }
+
+        .content {
+            position: relative;
+            background: var(--grey);
+            left: 0;
+            top: 0;
+        }
+
+        .buttons {
+            z-index: 9;
+            bottom: 10px;
+            right: 10px;
+
+            button {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+
+    .experience.activeSlideItem {
+        display: flex;
+    }
+}

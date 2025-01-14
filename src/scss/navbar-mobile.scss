@@ -16,7 +16,7 @@
         z-index: 8;
         display: block;
         width: calc(100%);
-        padding: 12px var(--side-padding);
+        padding: 12px 0;
         background: var(--white);
 
         .logo {
@@ -29,11 +29,24 @@
             align-items: center;
             justify-content: space-between;
             padding: 10px 0;
-            //width: 100%;
+            max-width: 100vw;
+
+            .logo {
+                margin-left: var(--side-padding);
+            }
+
+            .menu-button {
+                margin-right: var(--side-padding);
+            }
         }
 
     }
     
+    /*
+    ------------------------
+    NAVBAR OVERLAY
+    ------------------------
+    */
     #navbar-overlay {
         display: none;
         position: fixed;
@@ -60,11 +73,15 @@
             .close {
                 position: absolute;
                 top: 15px;
-                right: 30px;
+                right: var(--side-padding);
     
                 svg {
-                    width: 60px;
-                    height: 60px;
+                    width: 30px;
+                    height: 30px;
+
+                    path {
+                        fill: var(--white) !important;
+                    }
                 }
             }
     
@@ -155,6 +172,12 @@
                 gap: 100px;
                 aspect-ratio: 1/1 auto;
 
+                .top {
+                    svg {
+                        width: 50px;
+                    }
+                }
+
                 h2 {
                     font-size: 24px;
                 }
@@ -168,6 +191,14 @@
                     padding: 8px 14px;
                     font-size: 20px;
                     margin-top: 16px;
+                }
+
+                .commissions-status a {
+                    background: var(--white);
+                    color: var(--black);
+                    padding: 0px;
+                    text-align: left;
+                    margin-top: 0px;
                 }
             }
     

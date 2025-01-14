@@ -1,5 +1,6 @@
 <style lang="scss">
-    @import '../../scss/About/about-header.scss';
+    @import './css/about-header.scss';
+    @import './css/about-header--mobile.scss';
 </style>
 
 <script>

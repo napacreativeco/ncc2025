@@ -12,6 +12,8 @@
             width: 100%;
 
             .description {
+                grid-column: span 12;
+                
                 h2 {
                     font-size: 4vw;
                 }

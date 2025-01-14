@@ -1,5 +1,6 @@
 <style lang="scss">
-    @import '../../scss/Experience/experience-header.scss';
+    @import './css/experience-header.scss';
+    @import './css/experience-header--mobile.scss';
 </style>
 
 <script>

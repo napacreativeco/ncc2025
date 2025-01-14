@@ -1,5 +1,6 @@
 <style>
-    @import '../../scss/About/about-info.scss';
+    @import './css/about-info.scss';
+    @import './css/about-info--mobile.scss';
 </style>
 
 <script>

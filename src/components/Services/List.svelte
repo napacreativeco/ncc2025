@@ -57,13 +57,13 @@
         {#each servicesItems as item}
             
         
+            <!-- svelte-ignore a11y_interactive_supports_focus -->
+            <!-- svelte-ignore a11y_click_events_have_key_events -->
             <div class="services-item" 
                  data-id={item.id} 
                  data-name={item.title}
                  on:click={opener}
-                 on:keydown={opener}
-                 role="button"
-                 tabindex="0">
+                 role="button">
 
                 <div class="title">
                     <span class="index">{item.number}</span>

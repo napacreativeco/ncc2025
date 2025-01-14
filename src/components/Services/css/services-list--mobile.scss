@@ -1,9 +1,65 @@
-.services-divs {
-    .services-item {
-        .title {
-            h3 {
-                font-size: 3.8vw;
+@media screen and (max-width: 768px) {
+    .services-divs {
+
+        .services-item {
+
+            // Title
+            .title {
+
+                h3 {
+                    grid-column: col-start 3 / span 9;
+                    font-size: 3.8vw;
+                }
+
+                .arrow {
+                    grid-column: col-start 12 / span 1;
+                    width: 30px;
+
+                    svg {
+                        transform: rotate(45deg) translateX(0px);
+                    }
+                }
+
+                .close {
+                    grid-column: col-start 12 / span 1;
+                    width: 30px;
+
+                    svg {
+                        transform: translateX(0px);
+                    }
+                }
+
+            }
+
+            .title:hover {
+                .arrow {
+                    svg {
+                        transform: rotate(45deg) translateX(0px);
+                    }
+                }
+            }
+
+            // Body
+            .services-body {
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+
+                    .left {
+                        span {
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+                .image {
+                    border-radius: 20px;
+                    margin: 20px auto;
+                }
+
             }
         }
+
     }
 }

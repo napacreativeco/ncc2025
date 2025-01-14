@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+    
+    #more-info {
+        padding: 40px var(--side-padding);
+        display: flex;
+        flex-direction: column;
+
+        .left {
+            grid-column: span 12;
+            
+            .title {
+                h2 {
+                    font-size: 5vw;
+                }
+            }
+        }
+    }
+
+}

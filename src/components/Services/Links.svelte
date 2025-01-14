@@ -1,5 +1,6 @@
 <style lang="scss">
     @import './css/services-links.scss';
+    @import './css/services-links--mobile.scss';
 </style>
 
 <script>
