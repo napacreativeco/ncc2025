@@ -42,7 +42,7 @@
 	</nav>
 
 	<div class="get-in-touch">
-		<a class="button" href="/contact" title="Get in Touch">Get in Touch</a>
+		<a class="button" href="/about" title="Get in Touch">Get in Touch</a>
 	</div>
 	
 </header>

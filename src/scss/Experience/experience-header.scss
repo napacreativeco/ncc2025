@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: var(--twelve-column);
     grid-area: var(--side-padding);
+    grid-gap: var(--side-padding);
+    align-items: flex-end;
     width: 100%;
     border-bottom: 1px solid var(--grey);
     padding: 60px var(--side-padding) 40px var(--side-padding);
@@ -25,7 +27,7 @@
     }
 
     .right {
-        grid-column: col-start 4 / span 6;
+        grid-column: col-start 4 / span 8;
 
         p {
             font-size: 3vw;

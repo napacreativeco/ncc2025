@@ -1,11 +1,15 @@
 <style lang="scss">
-    .commissions-status {
+    .commissions-status a {
         grid-column: col-start 4 / span 3;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
         gap: 6px;
+
+        span {
+            white-space: nowrap;
+        }
 
         .green-dot {
             border-radius: 50%;
@@ -14,6 +18,7 @@
             background: var(--green);
             animation: 1.5s infinite blink;
             transition: opacity 0.2s;
+            aspect-ratio: 1/1;
         }
     }
 
@@ -25,6 +30,8 @@
 </style>
 
 <div class="commissions-status">
-    <span class="green-dot"></span>
-    <span>Open for Commissions</span>
+    <a href="/about" title="Contact us">
+        <span class="green-dot"></span>
+        <span>Open for Commissions</span>
+    </a>
 </div>

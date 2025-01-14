@@ -35,7 +35,7 @@
 
     <div class="right">
         <div class="description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+            <p>Our websites are built to scale and resize based on the device it's being viewed on. Our goal is to create a seamless experience for your customers that will boost your business and bring you closer to success.</p>
         </div>
     </div>
 

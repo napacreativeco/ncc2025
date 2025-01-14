@@ -32,7 +32,7 @@
     </div>
 
     <div class="right">
-        <p>Our projects speak for themselves.</p>
+        <p>We've worked with a ton of promising companies, artists, and entrepreneurs to elevate their online presence.</p>
     </div>
 
 </section>

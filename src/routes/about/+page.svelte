@@ -12,5 +12,5 @@
 <div id="about-page">
 	<Header />
 	<Info />
-	<Contact />
+	<Contact id="contact-info" />
 </div>

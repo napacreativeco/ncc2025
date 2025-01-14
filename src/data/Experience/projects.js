@@ -8,7 +8,8 @@ export const projectsItems = [
         avatar: '/images/mobilephone.png',
         client: 'Nappy Boy Automotive',
         tags: 'Shopify, E-commerce',
-        url: 'nappyboyautomotive.com'
+        url: 'nappyboyautomotive.com',
+        link: 'https://www.nappyboyautomotive.com'
     },
     { 
         id: 2, 
@@ -19,7 +20,8 @@ export const projectsItems = [
         avatar: '/images/mobilephone.png',
         client: 'Dais Records',
         tags: 'Shopify, E-commerce',
-        url: 'daisrecords.com'
+        url: 'daisrecords.com',
+        link: 'https://www.daisrecords.com'
     },
     { 
         id: 3, 
@@ -30,7 +32,8 @@ export const projectsItems = [
         avatar: '/images/mobilephone.png',
         client: 'Sunday Drive Records',
         tags: 'Shopify, E-commerce',
-        url: 'sundaydriverecords.com'
+        url: 'sundaydriverecords.com',
+        link: 'https://www.sundaydriverecords.com'
     },
     { 
         id: 4, 
@@ -41,7 +44,8 @@ export const projectsItems = [
         avatar: '/images/mobilephone.png',
         client: 'Audible Treats',
         tags: 'WordPress, Blog',
-        url: 'audibletreats.com'
+        url: 'audibletreats.com',
+        link: 'https://www.audibletreats.com'
     },
     { 
         id: 5, 
@@ -52,6 +56,7 @@ export const projectsItems = [
         avatar: '/images/mobilephone.png',
         client: 'Usal Project',
         tags: 'Shopify, E-Commerce, Blog',
-        url: 'usalproject.com'
+        url: 'usalproject.com',
+        link: 'https://www.usalproject.com'
     }
 ];

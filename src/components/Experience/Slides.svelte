@@ -100,7 +100,7 @@
                     // LINK
                     -->
                     <div class="link">
-                        <a href="{item.url}" title={item.client}>{item.url}</a>
+                        <a href="{item.link}" title={item.client}>{item.url}</a>
                     </div>
 
                 </div>

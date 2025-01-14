@@ -1,6 +1,6 @@
 <style lang="scss">
-    @import '../../scss/Services/services-header.scss';
-    @import '../../scss/Services/services-header--mobile.scss';
+    @import './css/services-header.scss';
+    @import './css/services-header--mobile.scss';
 </style>
 
 <script>

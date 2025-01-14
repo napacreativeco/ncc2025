@@ -69,6 +69,14 @@ body {
     background: var(--white);
     color: var(--black);
     line-height: 1.6;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 p {
@@ -133,6 +141,9 @@ Containers
 .page-container {
     position: relative;
     //padding: 0 var(--side-padding);
+}
+.legal {
+    padding: 0 var(--side-padding);
 }
 
 

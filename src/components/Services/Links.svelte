@@ -1,5 +1,5 @@
 <style lang="scss">
-    @import '../../scss/Services//services-links.scss';
+    @import './css/services-links.scss';
 </style>
 
 <script>
@@ -41,7 +41,7 @@ PAGE LINKS
 <div class="pages-links" bind:this={element}>
     <ul bind:this={scrollContainer}>
         {#each pagesItems as item}
-            <li>
+            <li on:click={window.location=item.url}>
                 <div class="title">
                     <span class="index">{item.number}</span>
                     <h3>{item.title}</h3>

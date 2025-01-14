@@ -42,7 +42,6 @@ footer {
             flex-direction: column;
             justify-content: center;
 
-
             .contact-item {
                 margin: 0 0 20px 0;
             }
@@ -70,38 +69,60 @@ footer {
         .left {
             grid-column: col-start 1 / span 4;
 
+            .logo svg {
+                fill: var(--white) !important;
+                width: 32px;
+                height: 32px;
+                margin: 0 0 8px 0;
+            }
+
             .social-icons {
                 margin-top: 30px;
-            }
 
-            h4 {
-                font-weight: 300;
-                color: var(--grey-dark);
-                margin: 0 0 16px 0;
-            }
-
-            ul {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 8px;
-
-                li {
+                h4 {
+                    font-weight: 300;
+                    color: var(--grey-dark);
+                    margin: 0 0 16px 0;
+                }
+    
+                ul {
                     display: flex;
+                    flex-direction: row;
                     align-items: center;
-                    justify-content: center;
-                    border: 1px solid var(--grey-dark);
-                    border-radius: 50px;
-                    aspect-ratio: 1/1;
-                    width: 40px;
-                    height: 40px;
+                    gap: 8px;
+    
+                    li {
+                        
 
-                    svg {
-                        width: 16px;
-                        height: 16px;
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid var(--grey-dark);
+                            border-radius: 50px;
+                            aspect-ratio: 1/1;
+                            width: 40px;
+                            height: 40px;
+                            margin: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: background 0.3s ease-in-out;
+                        }
+
+                        a:hover {
+                            background: rgba(255, 255, 255, 0.2);
+                        }
+    
+                        svg {
+                            width: 16px;
+                            height: 16px;
+                        }
                     }
                 }
             }
+
+
         }
 
         .right {

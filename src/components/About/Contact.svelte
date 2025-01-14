@@ -55,7 +55,7 @@
             </div>
 
             <div class="button">
-                <a href="mailto:contact@throne.work" title="E-mail">
+                <a href="mailto:hello@napacreativeco.com" title="E-mail">
                     E-mail
                 </a>
             </div>
@@ -68,7 +68,7 @@
             </div>
 
             <div class="button">
-                <a href="mailto:contact@throne.work" title="E-mail">
+                <a href="tel:7073653802" title="Phone">
                     Call us
                 </a>
             </div>
@@ -81,7 +81,7 @@
             </div>
 
             <div class="button">
-                <a href="mailto:contact@throne.work" title="E-mail">
+                <a href="https://www.yelp.com/biz/napa-creative-co-napa-2" title="Yelp">
                     Reviews
                 </a>
             </div>

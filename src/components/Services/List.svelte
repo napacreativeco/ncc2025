@@ -1,5 +1,6 @@
 <style lang="scss">
-    @import '../../scss/Services//services-list.scss';
+    @import './css/services-list.scss';
+    @import './css/services-list--mobile.scss';
 </style>
 
 <script>
@@ -76,12 +77,9 @@
                 </div>
 
                 <div class="services-body" data-title={item.title}>
-
-                    <div class="image">
-                        <img src="{item.banner}" alt="{item.title}" />
-                    </div>
     
-                    <div class="intro">
+                    <!-- INTRO -->
+                    <div class="content">
                         <div class="left">
                             <span class="title">
                                 {item.title}
@@ -89,12 +87,13 @@
                         </div>
     
                         <div class="right">
-                            
+                            <p>{item.content}</p>
                         </div>
                     </div>
-    
-                    <div class="content">
-                        <p>{item.content}</p>
+
+                    <!-- IMAGE -->
+                    <div class="image">
+                        <img src="{item.banner}" alt="{item.title}" />
                     </div>
                     
                 </div>

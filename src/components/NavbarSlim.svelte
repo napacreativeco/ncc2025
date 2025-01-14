@@ -8,6 +8,7 @@
     import { pageItems } from '../data/pages';
     import { siteInfo } from "../data/site";
     import { page } from '$app/stores'; 
+    import Napa from './Icons/Napa.svelte';
 
     $: currentPath = $page.url.pathname; 
 
@@ -37,7 +38,10 @@
 <header id="navbar-slim" bind:this={navSlim}>
 
     <div class="bold logo">
-		<a href="/" title="{siteInfo.name}">{siteInfo.name}</a>
+		<a href="/" title="{siteInfo.name}">
+            <Napa />
+            {siteInfo.name}
+        </a>
 	</div>
 
 	<nav class="navigation">

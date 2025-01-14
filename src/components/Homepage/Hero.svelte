@@ -17,7 +17,8 @@
     let images = [
         '/images/earth-sessions--laptop.png',
         '/images/task-matte--layout.png',
-        '/images/audible-treats--laptop-mockup.png'
+        '/images/audible-treats--laptop-mockup.png',
+        '/images/infused-wireframe.jpg'
     ];
     
     let currentIndex = 0;
