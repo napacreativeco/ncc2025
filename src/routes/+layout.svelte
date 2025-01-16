@@ -14,6 +14,7 @@
     import NavbarSlim from '../components/NavbarSlim.svelte';
     import NavbarMobile from '../components/NavbarMobile.svelte';
     import Footer from '../components/Footer.svelte';
+    import Analytics from '../components/Analytics.svelte';
 
 	let { children } = $props();
 
@@ -40,6 +41,7 @@
 
 <div class="page-container">
 
+    <Analytics />
     <Navbar bind:this={navbar} />
     <NavbarSlim bind:this={navbarSlim} />
     <NavbarMobile />
