@@ -2,22 +2,18 @@
     import ServicesHeader from "../../components/Services/Header.svelte";
     import ServicesList from "../../components/Services/List.svelte";
     import ServicesLinks from "../../components/Services/Links.svelte";
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GV0SYG877E');
 </script>
 
 <svelte:head>
 	<title>Services | Napa Creative Co.</title>
 	<meta name="description" content="This is where the description goes for SEO" />
 </svelte:head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GV0SYG877E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GV0SYG877E');
-</script>
 
 <div class="services-page">
     <ServicesHeader />
