@@ -1,3 +1,19 @@
+<svelte:head>
+	<title>Terms of Service | Napa Creative Co.</title>
+	<meta name="description" content="Read our Terms of Service to understand the rules and guidelines for using our website and services. By accessing or using our platform, you agree to comply with these terms." />
+</svelte:head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GV0SYG877E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GV0SYG877E');
+</script>
+
+
 <div class="legal terms-of-service">
     <h1>Terms of Service</h1>
 

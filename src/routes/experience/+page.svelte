@@ -6,8 +6,18 @@
 
 <svelte:head>
 	<title>Experience | Napa Creative Co.</title>
-	<meta name="description" content="This is where the description goes for SEO" />
+	<meta name="description" content="Explore the professional experience of our team, showcasing expertise, skills, and accomplishments that drive our success. Learn how our background supports the quality of our services." />
 </svelte:head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GV0SYG877E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GV0SYG877E');
+</script>
 
 <svelte:document />
 
