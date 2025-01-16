@@ -4,12 +4,6 @@
     import Expertise from '../components/Homepage/Expertise.svelte';
     //import Projects from '../components/Homepage/Projects.svelte';
     import Testimonials from '../components/Homepage/Testimonials.svelte';
-
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-GV0SYG877E');
 </script>
 
 <style>
@@ -29,15 +23,6 @@
 <svelte:head>
 	<title>Home | Napa Creative Co.</title>
 	<meta name="description" content="Elevate your online presence with our premier web design and development services in Napa, California. Specializing in custom websites, responsive design, and cutting-edge solutions to help your business grow." />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GV0SYG877E"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-GV0SYG877E');
-    </script>
 </svelte:head>
 
 <div class="homepage">

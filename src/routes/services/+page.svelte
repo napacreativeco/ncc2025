@@ -7,16 +7,6 @@
 <svelte:head>
 	<title>Services | Napa Creative Co.</title>
 	<meta name="description" content="This is where the description goes for SEO" />
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GV0SYG877E"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-GV0SYG877E');
-    </script>
 </svelte:head>
 
 <div class="services-page">

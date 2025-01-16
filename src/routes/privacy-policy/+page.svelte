@@ -1,16 +1,6 @@
 <svelte:head>
 	<title>Privacy Policy | Napa Creative Co.</title>
 	<meta name="description" content="Review our Privacy Policy to learn how we collect, use, and protect your personal information. Your privacy is important to us, and this policy outlines our practices and your rights." />
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GV0SYG877E"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-GV0SYG877E');
-    </script>
 </svelte:head>
 
 <div class="legal privacy-policy">
